@@ -31,7 +31,7 @@ int * PrefixSum(int In[], int size) {
     int i = 0;
     int sum ;
     sum = *In;
-    int Out[];
+    int Out[1000];
     Out[0] = sum;
     while (i<size){
         i++;
