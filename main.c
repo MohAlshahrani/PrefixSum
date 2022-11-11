@@ -38,7 +38,5 @@ int * PrefixSum(int In[], int size) {
         sum = *(In+i)+sum;
         Out[i] = sum;
     }
-    int *OutPtr;
-    OutPtr = Out;
-    return  OutPtr;
+    return  Out;
 }
