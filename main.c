@@ -14,7 +14,7 @@ int main() {
     }
 
     int *ResultPtr;
-    int Result[size];
+    int *Result;
 
     Result = PrefixSum(arr, size);
 
