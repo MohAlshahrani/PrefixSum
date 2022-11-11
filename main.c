@@ -35,7 +35,7 @@ int * PrefixSum(int *In, int size) {
     Out[0] = sum;
     while (i<size){
         i++;
-        sum = *In[i]+sum;
+        sum = ((int *)In[i])+sum;
         Out[i] = sum;
     }
     int *OutPtr;
