@@ -19,8 +19,7 @@ int main() {
     Result = PrefixSum(arr, size);
 
     for (int i = 0; i < size; i++) {
-        Result[i] = *(ResultPtr+i);
-        printf("result[%d] : %d\n", i, *(Result+i));
+        printf("result[%d] : %d\n", i, Result[i]);
     }
     elt = omp_get_wtime() - elt;
     return 0;
