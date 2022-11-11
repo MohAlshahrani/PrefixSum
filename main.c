@@ -24,7 +24,7 @@ int main() {
     */
 
     elt = omp_get_wtime() - elt;
-    printf("elt = %f",elt)
+    printf("elt = %f",elt);
     return 0;
 
 }
